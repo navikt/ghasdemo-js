@@ -1,0 +1,15 @@
+{
+  "name": "ghasdemo",
+  "version": "1.0.0",
+  "description": "Used to demonstrate featues of GitHub Advanced Security to our developers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
