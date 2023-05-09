@@ -7,5 +7,8 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
+  const sqlite3 = require('sqlite3').verbose();
+  const db = new sqlite3.Database(':memory:');
+
   console.log(`Listening on port ${port}`)
 })
